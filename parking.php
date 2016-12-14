@@ -27,11 +27,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<nav class="pull">
 					<ul>
 						<li><a  href="index.php">Home</a></li>
-						<li><a  href="about.html">About Us</a></li>
-						<li><a  href="blog.html">Blog</a></li>
-						<li><a  href="terms.html">Terms</a></li>
-						<li><a  href="privacy.html">Privacy</a></li>
-						<li><a  href="contact.html">Contact</a></li>
+						<li><a  href="#">About Us</a></li>
+						<li><a  href="#">Blog</a></li>
+						<li><a  href="#">Terms</a></li>
+						<li><a  href="#">Privacy</a></li>
+						<li><a  href="#">Contact</a></li>
 					</ul>
 				</nav>			
 			</div>
@@ -55,7 +55,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="hero fa-navicon fa-2x nav_slide_button" id="hero">
 						<a href="#"><i class="glyphicon glyphicon-menu-hamburger"></i> </a>
 					</div>	
-				
+				<!---
+				<a href="#" class="right_bt" id="activator"><i class="glyphicon glyphicon-menu-hamburger"></i>  </a>
+			--->
+			</div>
+		<div class="clearfix"> </div>
 			<!---pop-up-box---->
 				    
 				<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
@@ -147,8 +151,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<li class="subitem2"><a href="meeting.php">Meeting room</a></li>
 				<li class="subitem2"><a href="student.php">Accommodation</a></li>
 				<li class="subitem2"><a href="parking.php">Parking</a></li>
-				<li class="subitem3"><a href="#">About us</a></li>
-				<li class="subitem3"><a href="#">Contact</a></li>
+				<li class="subitem3"><a href="buy.html">About us</a></li>
+				<li class="subitem3"><a href="dealers.html">Contact</a></li>
 			</ul>
 		</li>
 		</ul>
@@ -198,8 +202,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<h4>Category</h4>
 				<select class="in-drop">
 					<option>Select Category</option>
-					<option>Personal Parking</option>
+					<option>Signal Parking</option>
 					<option>Daily Parking</option>
+					<option>Long Term Parking</option>
 				</select>
 			</div>
 			<div class="col-sm-4 price-top">
@@ -232,6 +237,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<option>2000</option>
 							<option>3000</option>
 							<option>3000+</option>
+
 						</select>
 					</li>
 				</ul>
@@ -241,7 +247,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<ul>
 					<li>
 						<select class="in-drop">
-							<option>Size From(m2)</option>
+							<option>Size From</option>
 							<option>0</option>
 							<option>10</option>
 							<option>20</option>
@@ -252,11 +258,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<span>-</span>
 					<li>
 						<select class="in-drop">
-							<option>Size To(m2)</option>
+							<option>Size To</option>
 							<option>10</option>
 							<option>20</option>
 							<option>30</option>
 							<option>30+</option>
+						
 						</select>
 					</li>
 				</ul>
@@ -460,10 +467,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-3 amet-sed">
 				<h4>Our Company</h4>
 				<ul class="nav-bottom">
-					<li><a href="#">About Us</a></li>
-				        <li><a href="#">Mobile</a></li>
-					<li><a href="#">Terms & Conditions</a></li>
-					<li><a href="#">Blog</a></li>
+					<li><a href="about.html">About Us</a></li>
+				        <li><a href="mobile_app.html">Mobile</a></li>
+					<li><a href="terms.html">Terms & Conditions</a></li>
+					<li><a href="blog.html">Blog</a></li>
 					
 				</ul>	
 			</div>
@@ -471,8 +478,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<h4>Work With Us</h4>
 					<ul class="nav-bottom">
 						<li><a href="#">Business Development</a></li>
-						<li><a href="#">Careers</a></li>
-						<li><a href="#">Feedback</a></li>	
+						<li><a href="career.html">Careers</a></li>
+						<li><a href="feedback.html">Feedback</a></li>	
 					</ul>	
 			</div>
 			<div class="col-md-3 amet-sed">
@@ -482,8 +489,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<p>1234567890</p>
 					<ul class="nav-bottom">
 						<li><a href="#">We Chat</a></li>
-						<li><a href="#">Frequently Asked Questions</a></li>
-						<li><a href="#">Make a Suggestion</a></li>
+						<li><a href="faqs.html">Frequently Asked Questions</a></li>
+						<li><a href="suggestion.html">Make a Suggestion</a></li>
 					</ul>	
 			</div>
 	

@@ -115,7 +115,7 @@
 								<span class="icon-bar"></span>
 							</button>				  
 							<div class="navbar-brand">
-								<h1><a href="index.xhtml"><span>Home </span>Rental</a></h1>
+								<h1><a href="index.php"><span>Home </span>Rental</a></h1>
 							</div>
 						</div>
 
@@ -130,12 +130,12 @@
 												<li><a href="apartment.php">Apartment</a></li>
 												<li><a href="daily.php">Daily room</a></li>
 												<li><a href="parking.php">Parking</a></li>
-												<li><a href="4.xhtml">Meeting room</a></li>
+												<li><a href="meeting.php">Meeting room</a></li>
 											</ul>
 									</li>
-								<li><a href="5.xhtml">About us</a></li>
-								<li><a href="7.xhtml">Contact</a></li>
-								<li><a href="4.xhtml">Administrator</a></li>
+								<li><a href="#">About us</a></li>
+								<li><a href="#">Contact</a></li>
+								<li><a href="#">Administrator</a></li>
 							</ul>
 							<div class="clearfix"></div>
 						</div>
