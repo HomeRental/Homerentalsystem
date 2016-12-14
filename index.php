@@ -128,7 +128,8 @@
 											<ul class="dropdown-menu">
 												<li><a href="student.php">Student accommodation</a></li>
 												<li><a href="apartment.php">Apartment</a></li>
-												<li><a href="3.xhtml">Daily room</a></li>
+												<li><a href="daily.php">Daily room</a></li>
+												<li><a href="parking.php">Parking</a></li>
 												<li><a href="4.xhtml">Meeting room</a></li>
 											</ul>
 									</li>

@@ -1,11 +1,11 @@
 
 <html>
 <head>
-<title>student accommodation</title>
+<title>Parking</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
-
-
+<!-- Custom Theme files -->
 <!--menu-->
 <script src="js/scripts.js"></script>
 <link href="css/styles.css" rel="stylesheet">
@@ -55,11 +55,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="hero fa-navicon fa-2x nav_slide_button" id="hero">
 						<a href="#"><i class="glyphicon glyphicon-menu-hamburger"></i> </a>
 					</div>	
-				<!---
-				<a href="#" class="right_bt" id="activator"><i class="glyphicon glyphicon-menu-hamburger"></i>  </a>
-			--->
-			</div>
-		<div class="clearfix"> </div>
+				
 			<!---pop-up-box---->
 				    
 				<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
@@ -139,7 +135,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--//-->	
 <div class=" banner-buying">
 	<div class=" container">
-	<h3><span>Student</span> accommodation</h3> 
+	<h3><span>Parking</span></h3> 
 	<!---->
 	<div class="menu-right">
 		 <ul class="menu">
@@ -151,8 +147,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<li class="subitem2"><a href="meeting.php">Meeting room</a></li>
 				<li class="subitem2"><a href="student.php">Accommodation</a></li>
 				<li class="subitem2"><a href="parking.php">Parking</a></li>
-				<li class="subitem3"><a href="buy.html">About us</a></li>
-				<li class="subitem3"><a href="dealers.html">Contact</a></li>
+				<li class="subitem3"><a href="#">About us</a></li>
+				<li class="subitem3"><a href="#">Contact</a></li>
 			</ul>
 		</li>
 		</ul>
@@ -193,106 +189,74 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<option>Select area</option>
 					<option>Kungsmarken</option>
 					<option>Gullbernavagen</option>
-					<option>Trossö</option>
 					<option>Pantarholmen</option>
-					<option>Nättraby</option>
 					<option>Lyckeby</option>
-					<option>Hasslö</option>
-				
+									
 				</select>
 			</div>
 			<div class="col-sm-4 price-top">
 				<h4>Category</h4>
 				<select class="in-drop">
 					<option>Select Category</option>
-					<option>Apartment</option>
-					<option>Independent House</option>
-					<option>Row House</option>
-					<option>Villa</option>
-					<option>Builder Floor</option>
-					<option>Farm House</option>
-					<option>Penthouse</option>
+					<option>Personal Parking</option>
+					<option>Daily Parking</option>
 				</select>
 			</div>
 			<div class="col-sm-4 price-top">
-				<h4>Rooms</h4>
-				<select class="in-drop">
-					<option>No. of Bedrooms</option>
-					<option>1 BHK</option>
-					<option>2 BHK</option>
-					<option>3 BHK</option>
-					<option>4 BHK</option>
-					
-				</select>
+				<h4>Submmit</h4>
+					<input class = 'submit_p' type="submit" value="submit" />
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 		<div class="price-grid">
 			<div class="col-sm-6 price-top1">
-				<h4>Price Range</h4>
+				<h4>Price Range(Kr)</h4>
 				<ul>
 					<li>
 						<select class="in-drop">
-							<option>Price From</option>
+							<option>Price From(Kr)</option>
 							<option>0</option>
-							<option>1000kr </option>
-							<option>3000kr</option>
-							<option>5000kr</option>
-							<option>10000kr</option>
-							<option>15000kr</option>
-							<option>20000kr</option>
-							<option>30000kr</option>
+							<option>1000</option>
+							<option>1500</option>
+							<option>2000</option>
+							<option>3000</option>
 
 						</select>
 					</li>
 					<span>-</span>
 					<li>
 						<select class="in-drop">
-							<option>Price To</option>
-							<option>1000kr</option>
-							<option>3000kr</option>
-							<option>5000kr</option>
-							<option>10000kr</option>
-							<option>15000kr</option>
-							<option>20000kr</option>
-							<option>30000+kr</option>
-
+							<option>Price To(Kr)</option>
+							<option>1000</option>
+							<option>1500</option>
+							<option>2000</option>
+							<option>3000</option>
+							<option>3000+</option>
 						</select>
 					</li>
 				</ul>
 			</div>
 			<div class="col-sm-6 price-top1">
-				<h4>Distance</h4>
+				<h4>Size(m2)</h4>
 				<ul>
 					<li>
 						<select class="in-drop">
-							<option>Sqmt From</option>
+							<option>Size From(m2)</option>
 							<option>0</option>
-							<option>500 m</option>
-							<option>1000 m</option>
-							<option>1500 m</option>
-							<option>2000 m</option>
-							<option>2500 m</option>
-							<option>3000 m</option>
-							<option>3500 m</option>
-							<option>4000 m</option>
-							<option>4500 m</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+			
 						</select>
 					</li>
 					<span>-</span>
 					<li>
 						<select class="in-drop">
-							<option>Sqmt To</option>
-							<option>500 m</option>
-							<option>1000 m</option>
-							<option>1500 m</option>
-							<option>2000 m</option>
-							<option>2500 m</option>
-							<option>3000 m</option>
-							<option>3500 m</option>
-							<option>4000 m</option>
-							<option>4500 m</option>
-							<option>5000+ m</option>
+							<option>Size To(m2)</option>
+							<option>10</option>
+							<option>20</option>
+							<option>30</option>
+							<option>30+</option>
 						</select>
 					</li>
 				</ul>
@@ -306,9 +270,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="grid-at">
 			<div class="col-md-3 grid-city">
 				<div class="grid-lo">
-					<a href="buy_single.html">
+					<a href="#">
 						<figure class="effect-layla">
-                                                    <img class=" img-responsive" src="images/sb2.jpg" alt="img06">
+                                                    <img class=" img-responsive" src="images/t1.jpg" alt="t1">
 						<figcaption>
 							<h4></h4>
 							
@@ -319,9 +283,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="col-md-3 grid-city">
 				<div class="grid-lo">
-						<a href="buy_single.html">
+						<a href="#">
 					<figure class="effect-layla">
-                                            <img class=" img-responsive" src="images/sb4.jpg" alt="img06">
+                                            <img class=" img-responsive" src="images/t2.jpg" alt="t2">
 						<figcaption>
 							<h4></h4>
 							
@@ -334,9 +298,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="grid-me">
 				<div class="col-md-8 grid-lo1">
 					<div class=" grid-lo">
-							<a href="buy_single.html">
+							<a href="#">
 					<figure class="effect-layla">
-                                            <img class=" img-responsive" src="images/sl1.jpg" alt="img06">
+                                            <img class=" img-responsive" src="images/t3.jpg" alt="t3">
 						<figcaption>
 							<h4 class="effect1"></h4>
 							
@@ -347,9 +311,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				 <div class="col-md-4 grid-lo2">
 				 	<div class=" grid-lo">
-				 			<a href="buy_single.html">
+				 			<a href="#">
 					<figure class="effect-layla">
-                                            <img class=" img-responsive" src="images/sl3.jpg" alt="img06">
+                                            <img class=" img-responsive" src="images/t4.jpg" alt="t4">
 						<figcaption>
 							<h4 class="effect2"></h4>
 							
@@ -363,9 +327,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="grid-me">
 				<div class="col-md-6 grid-lo3">
 					<div class=" grid-lo">
-							<a href="buy_single.html">
+							<a href="#">
 					<figure class="effect-layla">
-                                            <img class="img-responsive" src="images/ss1.jpg" alt="img06">
+                                            <img class="img-responsive" src="images/t5.jpg" alt="t5">
 						<figcaption>
 							<h4 class="effect3"></h4>
 							
@@ -376,9 +340,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				 </div>
 				 <div class="col-md-6 grid-lo4">
 				 	<div class=" grid-lo">
-				 			<a href="buy_single.html">
+				 			<a href="#">
 					<figure class="effect-layla">
-                                            <img class="img-responsive" src="images/ss3.jpg" alt="img06">
+                                            <img class="img-responsive" src="images/t6.jpg" alt="t6">
 						<figcaption>
 							<h4 class="effect3"></h4>
 							
@@ -406,11 +370,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="content-bottom-in">
 					<ul id="flexiselDemo1">			
 						<li><div class="project-fur">
-								<a href="single.html" ><img class="img-responsive" src="images/pi.jpg" alt="" />	</a>
+								<a href="#" ><img class="img-responsive" src="images/t7.jpg" alt="t7" />	</a>
 									<div class="fur">
 										<div class="fur1">
-		                                    <span class="fur-money">1000kr - 3000kr </span>
-		                                    <h6 class="fur-name"><a href="single.html">House style</a></h6>
+		                                    <span class="fur-money">2000kr - 4000kr </span>
+		                                    <h6 class="fur-name"><a href="#">Parking style</a></h6>
 		                                   	<span></span>
                                			</div>
 			                            <div class="fur2">
@@ -419,11 +383,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</div>					
 							</div></li>
 							<li><div class="project-fur">
-									<a href="single.html" ><img class="img-responsive" src="images/pi1.jpg" alt="" />	</a>
+									<a href="#" ><img class="img-responsive" src="images/t8.jpg" alt="t8" />	</a>
 										<div class="fur">
 											<div class="fur1">
-			                                    <span class="fur-money">2500kr - 5000kr </span>
-			                                   <h6 class="fur-name"><a href="single.html">House style</a></h6>
+			                                    <span class="fur-money">3500kr - 5500kr </span>
+			                                   <h6 class="fur-name"><a href="#">Parking style</a></h6>
 			                                   	<span></span>
 	                               			</div>
 				                            <div class="fur2">
@@ -432,11 +396,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</div>					
 								</div></li>
 								<li><div class="project-fur">
-								<a href="single.html" ><img class="img-responsive" src="images/pi2.jpg" alt="" />	</a>
+								<a href="#" ><img class="img-responsive" src="images/t9.png" alt="t9" />	</a>
 									<div class="fur">
 										<div class="fur1">
-		                                    <span class="fur-money">3000kr - 6000kr </span>
-		                                   <h6 class="fur-name"><a href="single.html">House style</a></h6>
+		                                    <span class="fur-money">2000kr - 5000kr </span>
+		                                   <h6 class="fur-name"><a href="#">Parking style</a></h6>
 		                                   	<span></span>
                                			</div>
 			                            <div class="fur2">
@@ -445,11 +409,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</div>					
 							</div></li>
 							<li><div class="project-fur">
-								<a href="single.html" ><img class="img-responsive" src="images/pi3.jpg" alt="" />	</a>
+								<a href="#" ><img class="img-responsive" src="images/t10.jpg" alt="t10" />	</a>
 									<div class="fur">
 										<div class="fur1">
-		                                    <span class="fur-money">3500kr - 6500kr </span>
-		                                    <h6 class="fur-name"><a href="single.html">House style</a></h6>
+		                                    <span class="fur-money">4500kr - 6500kr </span>
+		                                    <h6 class="fur-name"><a href="#">Parking style</a></h6>
 		                                   	<span></span>
                                			</div>
 			                            <div class="fur2">
@@ -496,19 +460,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-3 amet-sed">
 				<h4>Our Company</h4>
 				<ul class="nav-bottom">
-					<li><a href="about.html">About Us</a></li>
-				        <li><a href="mobile_app.html">Mobile</a></li>
-					<li><a href="terms.html">Terms & Conditions</a></li>
-					<li><a href="blog.html">Blog</a></li>
+					<li><a href="#">About Us</a></li>
+				        <li><a href="#">Mobile</a></li>
+					<li><a href="#">Terms & Conditions</a></li>
+					<li><a href="#">Blog</a></li>
 					
 				</ul>	
 			</div>
 			<div class="col-md-3 amet-sed ">
 				<h4>Work With Us</h4>
 					<ul class="nav-bottom">
-						<li><a href="single.html">Business Development</a></li>
-						<li><a href="career.html">Careers</a></li>
-						<li><a href="feedback.html">Feedback</a></li>	
+						<li><a href="#">Business Development</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Feedback</a></li>	
 					</ul>	
 			</div>
 			<div class="col-md-3 amet-sed">
@@ -518,8 +482,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<p>1234567890</p>
 					<ul class="nav-bottom">
 						<li><a href="#">We Chat</a></li>
-						<li><a href="faqs.html">Frequently Asked Questions</a></li>
-						<li><a href="suggestion.html">Make a Suggestion</a></li>
+						<li><a href="#">Frequently Asked Questions</a></li>
+						<li><a href="#">Make a Suggestion</a></li>
 					</ul>	
 			</div>
 	
@@ -532,7 +496,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<h2><a href="index.php">Home rental sysytem</a></h2>
 			</div>
 			<div class="col-md-8 footer-class">
-				<p ><a target="_blank" href="http://sc.chinaz.com/moban/"></a></p>
+				<p ><a target="_blank" href=""></a></p>
 			</div>
 		<div class="clearfix"> </div>
 	 	</div>

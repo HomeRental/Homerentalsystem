@@ -148,6 +148,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<li class="subitem3"><a href="apartment.php">Apartment </a></li>
 				<li class="subitem1"><a href="daily.php">Daily room </a></li>
 				<li class="subitem2"><a href="meeting.php">Meeting room</a></li>
+				<li class="subitem2"><a href="student.php">Accommodation</a></li>
+				<li class="subitem2"><a href="parking.php">Parking</a></li>
 				<li class="subitem3"><a href="buy.html">About us</a></li>
 				<li class="subitem3"><a href="dealers.html">Contact</a></li>
 			</ul>
