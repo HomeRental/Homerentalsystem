@@ -263,8 +263,10 @@ if (isset($_POST['homerentalsystem'])) {
                     </table>
                     <div class="clearfix"> </div>
                 </div>
-                <div class="submit_link">  
-                    <input type="submit" value="submit">       
+                <div class="submit_link">
+                    <form action="confirmation.php" method = 'post'>
+                        <input type="submit" value="submit">       
+                    </form>  
                 </div>
             </div>
             <!---->

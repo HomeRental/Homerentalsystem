@@ -78,7 +78,7 @@ if (isset($_POST['homerentalsystem'])) {
 
 	<header id="header">
 		<hgroup>
-			<h1 class="site_title"><a href="index.html">Home Rental System</a></h1>
+			<h1 class="site_title"><a href="index.php">Home Rental System</a></h1>
 			<h2 class="section_title">Dashboard</h2><div class="btn_view_site"><a href="#">View Site</a></div>
 		</hgroup>
 	</header> <!-- end of header bar -->
@@ -89,7 +89,7 @@ if (isset($_POST['homerentalsystem'])) {
 			<!-- <a class="logout_user" href="#" title="Logout">Logout</a> -->
 		</div>
 		<div class="breadcrumbs_container">
-			<article class="breadcrumbs"><a href="index.html">Website Admin</a> <div class="breadcrumb_divider"></div> <a class="current">Dashboard</a></article>
+			<article class="breadcrumbs"><a href="index.php">Website Admin</a> <div class="breadcrumb_divider"></div> <a class="current">Dashboard</a></article>
 		</div>
 	</section><!-- end of secondary bar -->
 	
@@ -113,7 +113,7 @@ if (isset($_POST['homerentalsystem'])) {
 		<h3>Admin</h3>
 		<ul class="toggle">
 			
-			<li class="icn_jump_back"><a href="adminlogin.php">Logout</a></li>
+			<li class="icn_jump_back"><a href="index.php">Logout</a></li>
 		</ul>
 		
 		<footer>
