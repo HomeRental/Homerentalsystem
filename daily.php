@@ -211,8 +211,8 @@ if (isset($_POST['homerentalsystem'])) {
                                 <li class="subitem2"><a href="meeting.php">Meeting room</a></li>
                                 <li class="subitem2"><a href="student.php">Accommodation</a></li>
                                 <li class="subitem2"><a href="parking.php">Parking</a></li>
-                                <li class="subitem3"><a href="#">About us</a></li>
-                                <li class="subitem3"><a href="#">Contact</a></li>
+                                <li class="subitem3"><a href="about.php">About us</a></li>
+                                <li class="subitem3"><a href="contactus.php">Contact</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -267,8 +267,10 @@ if (isset($_POST['homerentalsystem'])) {
                     </table>
                     <div class="clearfix"> </div>
                 </div>
-                <div class="submit_link">  
-                    <input type="submit" value="submit">       
+                <div class="submit_link">
+                    <form action="confirmation.php" method = 'post'>
+                        <input type="submit" value="submit">       
+                    </form>  
                 </div>
             </div>
             <!---->

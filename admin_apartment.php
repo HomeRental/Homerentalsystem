@@ -15,7 +15,11 @@ if (isset($_POST['homerentalsystem'])) {
     $price = mysqli_real_escape_string($con, $_POST['price']);
     $result = mysqli_query($con, "SELECT * FROM admin WHERE area = '" . $area . "' and category = '" . $category . "' and size =  '" . $size . "' and price = '" . $price . "'");
 
-    
+    $name = mysqli_real_escape_string($con, $_POST['name']);
+    $email = mysqli_real_escape_string($con, $_POST['email']);
+    $date = mysqli_real_escape_string($con, $_POST['date']);
+    $description = mysqli_real_escape_string($con, $_POST['description']);
+    $contact_result = mysqli_query($con, "SELECT * FROM contact WHERE name = '" . $name . "' and email = '" . $email . "' and description =  '" . $description . "' and date = '" . $date . "'");
 }
 
 
@@ -81,7 +85,7 @@ if (isset($_POST['homerentalsystem'])) {
 	
 	<section id="secondary_bar">
 		<div class="user">
-			<p>Cheng Wang (<a href="#">3 Messages</a>)</p>
+			<p>Admin (<a href="#">3 Messages</a>)</p>
 			<!-- <a class="logout_user" href="#" title="Logout">Logout</a> -->
 		</div>
 		<div class="breadcrumbs_container">
@@ -168,21 +172,23 @@ if (isset($_POST['homerentalsystem'])) {
 		<article class="module width_quarter">
 			<header><h3>Messages</h3></header>
 			<div class="message_list">
-				<div class="module_content">
-					<div class="message"><p>My drain is blocked, please help me.</p>
-					<p><strong>Jiaqi Song (93********)</strong></p></div>
-					<div class="message"><p>I want the key to the storeroom</p>
-					<p><strong>Wenkai Zhan (93********)</strong></p></div>
-					<div class="message"><p>The light of the laundry is broken.</p>
-					<p><strong>Qianwen Liu (95********)</strong></p></div>
-
-				</div>
+				<?php
+                    
+                    $sql = mysql_query("select * from contact");
+                    $datarow = mysql_num_rows($sql); 
+                       for($i=0;$i<$datarow;$i++){
+                           $sql_arr = mysql_fetch_assoc($sql);
+                           $name = $sql_arr['name'];
+                           $email = $sql_arr['email'];
+                           $dates = $sql_arr['dates'];
+                           $description = $sql_arr['description'];
+                          
+                           echo "Name: $name<br>Email: $email<br>Date: $dates<br>Description: $description<hr/>";
+                       }
+                ?>
 			</div>
 			<footer>
-				<form class="post_message">
-					<input type="text" value="Message" onfocus="if(!this._haschanged){this.value=''};this._haschanged=true;">
-					<input type="submit" class="btn_post_message" value=""/>
-				</form>
+				
 			</footer>
 		</article><!-- end of messages article -->
 		
